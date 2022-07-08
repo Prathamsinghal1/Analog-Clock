@@ -16,8 +16,8 @@ body{
     top:50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    width: 410px;
-    height: 410px;
+    width: 370px;
+    height: 370px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -33,9 +33,9 @@ body{
 #hour{
     content: '';
     position: absolute;
-    bottom: 204px;
+    bottom: 184.5px;
     width: 2px;
-    height: 72px;
+    height: 68px;
     border-radius: 2px;
     background: linear-gradient(0deg,transparent,#fff);
     transform-origin: bottom;
@@ -45,9 +45,9 @@ body{
 #minute{
     content: '';
     position: absolute;
-    bottom: 204px;
+    bottom: 184.5px;
     width: 2px;
-    height: 115px;
+    height: 107px;
     border-radius: 2px;
     background: linear-gradient(0deg,transparent,#fff);
     transform-origin: bottom;
@@ -58,8 +58,8 @@ body{
     content: '';
     position: absolute;
     width: 2px;
-    height: 151px;
-    bottom: 204px;
+    height: 137px;
+    bottom: 184.5px;
     border-radius: 2px;
     background: linear-gradient(0deg,transparent,#fff);
     transform-origin: bottom;
@@ -94,9 +94,9 @@ ul li{
     position: absolute;
     top: 10px;
     list-style: none;
-    transform-origin: 0 195px;
+    transform-origin: 0 175px;
     transform: rotate(calc(30deg * var(--i)));
-    font-size: 2.2em;
+    font-size: 2em;
     font-weight: bold;
 }
 
